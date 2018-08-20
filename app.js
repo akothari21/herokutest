@@ -9,7 +9,7 @@ app.get("/:name", function(req, res){
 
 })
  app.get("*", function(req, res){
-     res.send("hey there! Welcome to  BitByBit. for more details drop a mail to contact.bitbybit@gmail.com");
+     res.send("hey there! Welcome to <h1>BitByBit</h1>. for more details drop a mail to contact.bitbybit@gmail.com");
 
  });
 
